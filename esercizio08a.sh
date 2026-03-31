@@ -13,6 +13,6 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
-
-
-
+tail -n +2 ambiente/dati/studenti.csv | awk -F',' '{print $1, $2}'
+tail -n +2 ambiente/dati/studenti.csv | awk -F',' '$4 >= 8'
+tail -n +2 ambiente/dati/studenti.csv | awk -F',' '$3=="4A" {printf "%s %s - media: %s\n", toupper($2), $1, $4}'

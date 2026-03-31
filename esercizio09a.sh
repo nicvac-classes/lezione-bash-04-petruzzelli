@@ -17,6 +17,5 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
-
-
+grep -E "indirizzo IP" ambiente/log/server.log
 

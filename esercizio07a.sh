@@ -12,3 +12,6 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
+find ambiente/ -type f -name "*.txt"
+grep -rn "database" ambiente/log/+
+grep -rl "TODO" ambiente/progetti/ --include="*.java"
