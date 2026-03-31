@@ -12,6 +12,8 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
+ls ambiente/immagini/vacanze/*.jpg
 
+ls ambiente/documenti/*.txt > ambiente/sandbox/elenco_txt.txt
 
-
+ls ambiente/archivio/contratti/ >> ambiente/sandbox/elenco_txt.txt
