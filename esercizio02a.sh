@@ -20,5 +20,6 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+mkdir -p ambiente/sandbox/azienda/{vendite/{nord,sud},acquisti/{nord,sud}}
+tree ambiente/sandbox
+ls -R ambiente/sandbox
